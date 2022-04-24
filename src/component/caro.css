@@ -1,0 +1,131 @@
+body {
+    overflow-x: hidden;
+  }
+  .dede {
+    height: 653px;
+    width: 410px;
+  }
+  .boad {
+    position: absolute;
+    bottom: 50%;
+  }
+  .logos {
+    font-size: 40px;
+  }
+  .carolink {
+    margin-left: 50%;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  .carolink:hover {
+    color: black;
+  }
+  .carolinks {
+    font-size: 20px;
+    color: white !important;
+    text-decoration: none;
+  }
+  .carolinks:hover {
+    color: black !important;
+  }
+  li {
+    margin-left: 9px;
+    transition: 0.5s;
+  }
+  li:hover {
+    scale: 2;
+  }
+  .content {
+    position: absolute;
+  
+    top: 60%;
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+    transition: 0.5s;
+  }
+  .content:hover {
+    background-color: black;
+    color: white;
+  }
+  .ring {
+    font-size: 30px;
+    color: tomato;
+    font-weight: bolder;
+  }
+  .ring:hover {
+    color: turquoise;
+    font-weight: bolder;
+  }
+  @media screen and (min-width: 780px) {
+    .dede {
+      height: 653px;
+      width: 1366px;
+    }
+    .boad {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+    }
+    .logos {
+      position: absolute;
+      bottom: 570px;
+  
+      left: 100px;
+    }
+    .ul {
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      bottom: 570px;
+      right: 100px;
+    }
+    .li {
+      font-size: 25px;
+      padding-left: 20px;
+      transition: 0.5s;
+    }
+    .carolinks {
+      color: white !important;
+      text-decoration: none;
+    }
+    .carolinks:hover {
+      color: black !important;
+    }
+    .carolink {
+      color: white !important;
+      font-weight: bolder;
+      text-decoration: none;
+      font-size: 45px;
+      transition: 0.5s;
+    }
+    .carolink:hover {
+      color: black !important;
+    }
+  
+    .content {
+      background-color: black;
+      position: absolute;
+      top: 20%;
+      margin-right: 50%;
+      margin-left: 6%;
+      transition: 0.5s;
+      color: white;
+    }
+    .content:hover {
+      background-color: white;
+      color: black;
+    }
+    .ring {
+      color: tomato;
+      font-weight: bolder;
+    }
+    .ring:hover {
+      color: turquoise;
+      font-weight: bolder;
+    }
+  }
+  

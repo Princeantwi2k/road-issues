@@ -1,0 +1,53 @@
+.images {
+    height: 300px;
+    width: 300px;
+  }
+  .body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10%;
+    border-radius: 20px;
+    box-shadow: 1px 2px rgb(18, 18, 58);
+  }
+  .account-topic {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 15px;
+  }
+  .google {
+    margin-left: 40px;
+  }
+  .account-details {
+    text-align: center;
+  }
+  @media screen and (min-width: 780px) {
+    .body {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      margin-top: 6%;
+      margin-left: 30%;
+      margin-right: 30%;
+      border-radius: 20px;
+      box-shadow: 1px 2px rgb(18, 18, 58);
+    }
+    .account-topic {
+      font-size: 40px;
+      text-align: center;
+      font-weight: bolder;
+      font-style: oblique;
+      padding: 15px;
+    }
+    .google {
+      margin-left: 150px;
+    }
+    .account-details {
+      text-align: center;
+    }
+  }
+  
